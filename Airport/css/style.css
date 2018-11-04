@@ -1,0 +1,283 @@
+body {
+	min-width: 1000px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.container {
+	width: 100%;
+	height:300px;
+	margin-top:0px;
+}
+.main-header {
+	background-color: #ffffff;
+	background-size: cover;
+}
+.header-top {
+	background-color: #0069b7;
+	color:#599CC7;
+}
+
+.header-top::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.logo img {
+	display: block;
+}
+
+.main-menu {
+	float: right;
+	width: 680px;
+}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu li {
+	display: inline-block;
+	margin-left: 60px;
+	padding-bottom:10px;
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.main-menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.main-menu a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
+.precontent {
+	text-align:center;
+	vertical-align:middle;
+	width: 100%;
+	height:100px;
+	padding-top: 40px;
+}
+.searching
+{
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input[type=search]{
+	width: 70%;
+	height: 30px;
+	background: #ffffff;
+	font-size: 10pt;
+	color: #63717f;
+	border-radius: 3px;
+	margin-right: 30px;
+}
+
+input[type=button] {
+	background: #599CC7;
+	color: #ffffff;
+	height:30px;
+	width: 70px;
+	font-size:16px;
+}
+
+input[type=button]:hover {
+	background: #328CC7;
+    color: #ffffff;
+}
+
+input[type=button]:active {
+	background: #599CC7;
+	color: #ffffff;
+}
+
+.content {
+	padding-top: 50px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom: 75px;
+	background-color: #efefef;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:collapse;
+	text-align: center;
+	width:100%;
+	table-layout: auto;
+}
+
+td
+{
+	border-left: 1px solid grey;
+	height:60px;
+}
+
+th
+{
+	border-left: 1px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+th:first-child, td:first-child {
+text-align: left;
+border-left:none;
+}
+
+
+
+
+.main-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0069b7;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-top::after,
+.footer-bottom::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-address {
+  float: left;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.footer-address p {
+  margin: 0;
+  margin-left:30px;
+  margin-top: 60px;
+}
+
+.footer-menu {
+  float: right;
+  width: 150px;
+  margin-right:50px;
+  margin-top: 25px;
+  text-align:center;
+}
+
+.footer-menu:last-child {
+  float: right;
+  width: 135px;
+}
+
+.footer-menu h3 {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu li {
+  margin-bottom: 24px;
+}
+
+.footer-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.footer-bottom {
+  margin-top: 45px;
+}
+
+.copyright {
+	float: left;
+	width: 300px;
+	margin-right: 40px;
+    margin-left:30px;
+}
+
+.footer-social-promo {
+	float: left;
+	width: 420px;
+}
+
+.footer-social {
+	float: right;
+	width: 170px;
+	margin-right:30px;
+	text-align: right;
+	font-size: 0;
+}
+
+.social-btn {
+	display: inline-block;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+
+.social-btn-vk {
+	width: 36px;
+	height: 24px;
+	background-image: url("../img/ico-vk.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-vk:hover {
+	background-image: url("../img/ico-vk-active.png");
+}
+
+.social-btn-fb {
+	width: 23px;
+	height: 35px;
+	background-image: url("../img/ico-fb.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-fb:hover {
+	background-image: url("../img/ico-fb-active.png");
+}
+
+.social-btn-tw {
+	width: 36px;
+	height: 30px;
+	background-image: url("../img/ico-tw.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-tw:hover {
+	background-image: url("../img/ico-tw-active.png");
+}

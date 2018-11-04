@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Табло аэропорта </title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script src="data.json"></script>
+	<script src="script2.js"  type="text/javascript"> </script>
+</head>
+ <header class="main-header">
+      <div class="container">
+        <div class="header-top">
+          <div class="logo">
+            <img src="img/logo.png" width="182" height="81" alt="Внуково">
+          </div>
+          <nav class="main-menu">
+            <ul>
+              <li><a href="#">Все</a></li>
+              <li><a href="#">Вылетающие</a></li>
+              <li><a href="#">Прилетающие</a></li>
+              <li><a href="#">Задержанные</a></li>
+            </ul>
+          </nav>
+        </div>
+		
+        <div class="precontent">
+			<p>Тут Вы можете посмотреть список авиа-рейcов, а также найти рейс по номеру.</p>
+			<form class="searching">
+			<input type="search" id="search" placeholder="Введите номер рейса..." />
+			<input type="button" value="Найти" onclick="getCellContent('myTable, number')"></p>
+			</form>
+			<p id="demo"></p>
+        </div>
+		
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+        <table class="airport-table">
+		<thead class="airport-table__head">
+		
+		<tr>
+		<th>Номер рейса</th>
+		<th>Откуда</th>
+		<th>Куда</th>
+		<th>Время</th>
+		<th>Авиа-компания</th>
+		<th>Статус</th>
+		</tr>
+		</thead>
+		
+		<tbody class="airport-table__body" id="myTable">
+		<tr>
+		<td>000000</td>
+		<td>Лондон</td>
+		<td>Париж</td>
+		<td>04-11-2018, 08:00</td>
+		<td>Победа</td>
+		<td>Прилет</td>
+		
+		</tbody>
+		
+		
+		
+		</table>
+      </div>
+    </section>
+
+  
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-address">
+            <p>Москва, Новомосковский административный<br> округ, Внуково пос.</p>
+          </div>
+          <div class="footer-menu">
+            <h3>Тут могло быть</h3>
+            <ul>
+              <li><a href="#">Что-нибудь </a></li>
+              <li><a href="#">Полезное</a></li>
+            </ul>
+          </div>
+          <div class="footer-menu">
+            <h3>Но</h3>
+            <ul>
+              <li><a href="#">Не</a></li>
+              <li><a href="#">Будет</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-menu">
+            <h3>Контакты</h3>
+            <ul>
+              <li><a href="#">Обратная связь</a></li>
+              <li><a href="#">Схема проезда</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">Все права защищены © 2018</div>
+          <div class="footer-social-promo">Тут могла быть какая-нибудь инфа</div>
+          <div class="footer-social">
+            <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+            <a href="#" class="social-btn social-btn-fb">
+			Фейсбук</a>
+            <a href="#" class="social-btn social-btn-tw">Твиттер</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+</body>
+</html>
